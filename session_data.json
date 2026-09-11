@@ -1,0 +1,12 @@
+[
+    {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1788466241.364957,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "first_name": "John",
+        "gender": "Male",
+        "hobby": "Music",
+        "state": "NCR",
+        "city": "Delhi"
+    },
+    {
+        "first_name": "Jane",
+        "gender": "Female",
+        "hobby": "Music",
+        "state": "Uttar Pradesh",
+        "city": "Lucknow"
+    }
+]
