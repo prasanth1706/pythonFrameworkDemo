@@ -43,7 +43,15 @@ jobs:
     - name: Install Playwright Chromium
       run: |
         playwright install --with-deps chromium
-    
-    - name: Test with pytest
+
+    - name: Run Tests
       run: |
-        pytest
+       pytest tests --html=report.html --self-contained-html
+
+    - name: Upload HTML Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+       name: pytest-html-report
+       path: report.html
+    
