@@ -62,8 +62,8 @@ jobs:
        server_address: smtp.gmail.com
        server_port: 465
        secure: true
-       username:
-       password:
+       username: ${{secrets.USERNAME}}
+       password: ${{secrets.EMAIL_PASSWORD}}
        subject: "Playwright Test Results - ${{job.status}}"
        to: prasanth.vishnubhatla@gmail.com
        from:
