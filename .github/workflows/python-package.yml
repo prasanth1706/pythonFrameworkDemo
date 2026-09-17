@@ -75,5 +75,9 @@ jobs:
 
          Report:
          https://github.com/${{github.repository}}/actions/run/${{github.run_id}}
-
+         
          Open the workflow and download the pytest-html-report artifact.
+         
+       attachments: report.html
+
+        
