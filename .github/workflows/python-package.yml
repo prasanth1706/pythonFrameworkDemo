@@ -74,7 +74,7 @@ jobs:
          Status: ${{job.status}}
 
          Report:
-         https://github.com/${{github.repository}}/actions/run/${{github.run_id}}
+         ${{steps.upload-report.outputs.artifact-url}}
          
          Open the workflow and download the pytest-html-report artifact.
          
